@@ -35,6 +35,7 @@
             this.button_logIn = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox_dataLink = new System.Windows.Forms.TextBox();
+            this.label_signIn = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox_username
@@ -73,7 +74,7 @@
             // 
             // button_logIn
             // 
-            this.button_logIn.Location = new System.Drawing.Point(123, 269);
+            this.button_logIn.Location = new System.Drawing.Point(168, 274);
             this.button_logIn.Name = "button_logIn";
             this.button_logIn.Size = new System.Drawing.Size(75, 23);
             this.button_logIn.TabIndex = 4;
@@ -98,11 +99,23 @@
             this.textBox_dataLink.Size = new System.Drawing.Size(134, 20);
             this.textBox_dataLink.TabIndex = 7;
             // 
+            // label_signIn
+            // 
+            this.label_signIn.AutoSize = true;
+            this.label_signIn.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label_signIn.Location = new System.Drawing.Point(108, 279);
+            this.label_signIn.Name = "label_signIn";
+            this.label_signIn.Size = new System.Drawing.Size(40, 13);
+            this.label_signIn.TabIndex = 8;
+            this.label_signIn.Text = "Sign In";
+            this.label_signIn.Click += new System.EventHandler(this.label_signIn_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(348, 450);
+            this.Controls.Add(this.label_signIn);
             this.Controls.Add(this.textBox_dataLink);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button_logIn);
@@ -126,5 +139,6 @@
         private System.Windows.Forms.Button button_logIn;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox_dataLink;
+        private System.Windows.Forms.Label label_signIn;
     }
 }

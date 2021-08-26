@@ -11,3 +11,6 @@ C:\Users\Yigitcan\source\repos\databaseConnectionExample\databaseConnectionExamp
 C:\Users\Yigitcan\source\repos\databaseConnectionExample\databaseConnectionExample\obj\Debug\databaseConnectionExample.Form2.resources
 C:\Users\Yigitcan\source\repos\databaseConnectionExample\databaseConnectionExample\obj\Debug\databaseConnectionExample.Login.resources
 C:\Users\Yigitcan\source\repos\databaseConnectionExample\databaseConnectionExample\obj\Debug\databaseConnectionExample.adminPanel.resources
+C:\Users\Yigitcan\source\repos\databaseConnectionExample\databaseConnectionExample\obj\Debug\databaseConnectionExample.signIn.resources
+C:\Users\Yigitcan\source\repos\databaseConnectionExample\databaseConnectionExample\obj\Debug\databaseConnectionExample.customerTable.resources
+C:\Users\Yigitcan\source\repos\databaseConnectionExample\databaseConnectionExample\obj\Debug\databaseConnectionExample.productTable.resources

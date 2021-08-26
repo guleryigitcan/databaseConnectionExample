@@ -50,6 +50,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.button_addOrder = new System.Windows.Forms.Button();
             this.button_deleteOrder = new System.Windows.Forms.Button();
+            this.button_customerTable = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -242,11 +244,33 @@
             this.button_deleteOrder.UseVisualStyleBackColor = true;
             this.button_deleteOrder.Click += new System.EventHandler(this.button_deleteOrder_Click);
             // 
+            // button_customerTable
+            // 
+            this.button_customerTable.Location = new System.Drawing.Point(943, 143);
+            this.button_customerTable.Name = "button_customerTable";
+            this.button_customerTable.Size = new System.Drawing.Size(75, 23);
+            this.button_customerTable.TabIndex = 34;
+            this.button_customerTable.Text = "Customers";
+            this.button_customerTable.UseVisualStyleBackColor = true;
+            this.button_customerTable.Click += new System.EventHandler(this.button_customerTable_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(943, 188);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 35;
+            this.button2.Text = "Products";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // adminPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1109, 589);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button_customerTable);
             this.Controls.Add(this.button_deleteOrder);
             this.Controls.Add(this.button_addOrder);
             this.Controls.Add(this.label4);
@@ -303,5 +327,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button_addOrder;
         private System.Windows.Forms.Button button_deleteOrder;
+        private System.Windows.Forms.Button button_customerTable;
+        private System.Windows.Forms.Button button2;
     }
 }

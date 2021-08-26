@@ -181,6 +181,20 @@ namespace databaseConnectionExample
             }
         }
 
-        
+        private void button_customerTable_Click(object sender, EventArgs e)
+        {
+            customerTable ct = new customerTable();
+            ct.dataLink = dataLink;
+            ct.ShowDialog();
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            productTable pt = new productTable();
+            pt.dataLink = dataLink;
+            pt.ShowDialog();
+            
+        }
     }
 }
